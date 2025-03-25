@@ -8,6 +8,16 @@ Image classification is a fundamental task in computer vision with applications 
 
 This project explores the effectiveness of different feature extraction techniques—**3D color histograms, HOG (Histogram of Oriented Gradients), and SIFT (Scale-Invariant Feature Transform)**—combined with classical classifiers (**Logistic Regression, K-Nearest Neighbors, Decision Trees, Random Forest, and Support Vector Machines**) for classifying images across **20 distinct classes**.
 
+## 3. Motivation
+The exponential growth of digital image data across domains, ranging from healthcare and security to agriculture and e-commerce, necessitates accurate and efficient image classification techniques. While deep learning methods such as Convolutional Neural Networks (CNNs) dominate the field, they often require large datasets and substantial computational resources. In contrast, combining classical feature extraction techniques with machine learning algorithms offers a more interpretable, resource-efficient alternative that remains viable for many real-world applications, especially where data and computation are limited. This research explores how traditional machine learning can still be harnessed effectively for multi-class image classification by leveraging engineered features.
+
+## 4. Solutions
+This project proposes a systematic pipeline for multi-class image classification using a hybrid approach that includes:
+1. Feature extraction using classical image descriptors (e.g., Histogram of Oriented Gradients, Local Binary Patterns, Color Histograms).
+2. Dimensionality reduction and normalization to enhance performance and reduce overfitting.
+3. Model training using established machine learning algorithms such as Support Vector Machines (SVM), Random Forests, and k-Nearest Neighbors (k-NN).
+4. Evaluation based on accuracy, precision, recall, F1-score, and computational efficiency.
+
 ## 3. Objectives  
 1. Perform **exploratory data analysis (EDA)** to understand dataset characteristics  
 2. Extract and analyze **handcrafted features** (color, texture, shape) for discriminative power  
